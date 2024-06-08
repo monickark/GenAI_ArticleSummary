@@ -1,4 +1,9 @@
 # GEN_AI TEXT_BASED TUTORIALS WITH OPEN_AI
+This project list all the possible tutorials regarding text based Gen AI using **gpt-35-turbo** models
+
+**Projects Included:**
+1. Chat prompt and its result
+2. Article Sumamry
 
 ## Dependencies
 ```console
@@ -36,5 +41,5 @@ Press CTRL+C to quit
 > blockquote
 Run this url http://127.0.0.1:5000 in browser and provide input and get summarized output
 
-![RESULT](output/image.png)
+![Article Summary Result](image.png)
 

@@ -20,7 +20,7 @@ def summarize_article(article_text):
        # prompt="Summarize the following article:\n\n{article_text}",
          messages=[
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": f"Summarize the following article:\n\n{article_text}?"},
+        {"role": "user", "content": f"Summarize the following article in 3 points as listed output:\n\n{article_text}?"},
     ]      
     )
     print("after summarize article ")
