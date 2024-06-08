@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Summarizer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Article Summarizer</h1>
+        <form method="post" action="/">
+            <div class="form-group">
+                <label for="article_text">Enter your article text:</label>
+                <textarea class="form-control" id="article_text" name="article_text" rows="10">{{ article_text }}</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Summarize</button>
+        </form>
+        {% if summary %}
+        <h2 class="mt-4">Summary:</h2>
+        <p class="border p-3">{{ summary }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
